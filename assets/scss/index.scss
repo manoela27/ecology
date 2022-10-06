@@ -1,0 +1,73 @@
+//sass /assets/scss/index.scss /assets/css/index.css
+//sass --watch main.scss:main.css
+
+body{
+    header{
+        position: fixed;
+        width: 100%;
+        min-height: 100px;
+        z-index: 99;
+
+        .c-menu{
+            min-height: 100px;
+            .logo{
+                height: 50px;
+                .logo_menu{
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+            
+            .c-menu__options{
+                width: 45%;
+                display:flex;
+                justify-content: space-between;
+                height: 50px;
+                align-items: center;
+
+                .options{
+                    font-family: "montserrat";
+                    color:#1C3A11;
+                    font-weight:600;
+                    font-size: 18px;
+                    text-decoration: none;
+                    
+                    &:hover{
+                        color: #3B6B1C;
+                    }
+
+                    &__login{
+                        border: 1px solid #1C3A11;
+                        padding: 4px;
+
+                        &:hover{
+                            color: #1C3A11;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        .c-home{
+            background-image: url('/assets/img/fundo_home.jpg');
+            min-height: 650px;
+            background-size: contain;
+            background-position: left;
+            background-repeat: no-repeat;
+
+            .title-home{
+                font-family: 'Montserrat';
+                font-size: 150px;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: 900;
+                margin-bottom: 0;
+            }
+            
+            .box-content{
+                background-color:#FFF;
+            }
+        }
+    }
+}

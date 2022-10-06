@@ -1,0 +1,60 @@
+body header {
+  position: fixed;
+  width: 100%;
+  min-height: 100px;
+  z-index: 99;
+}
+body header .c-menu {
+  min-height: 100px;
+}
+body header .c-menu .logo {
+  height: 50px;
+}
+body header .c-menu .logo .logo_menu {
+  height: 100%;
+  object-fit: contain;
+}
+body header .c-menu .c-menu__options {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+body header .c-menu .c-menu__options .options {
+  font-family: "montserrat";
+  color: #1C3A11;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+}
+body header .c-menu .c-menu__options .options:hover {
+  color: #3B6B1C;
+}
+body header .c-menu .c-menu__options .options__login {
+  border: 1px solid #1C3A11;
+  padding: 4px;
+}
+body header .c-menu .c-menu__options .options__login:hover {
+  color: #1C3A11;
+}
+body main .c-home {
+  background-image: url("/assets/img/fundo_home.jpg");
+  min-height: 650px;
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+body main .c-home .title-home {
+  font-family: "Montserrat";
+  font-size: 150px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+body main .c-home .box-content {
+  background-color: #FFF;
+}
+
+/*# sourceMappingURL=index.css.map */
